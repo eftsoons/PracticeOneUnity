@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class HandleButtonClick : MonoBehaviour
 {
-
     public void handleSetRuTranslition()
     {
         LocalizationManager.Instance.currentLanguageType = LanguageType.ru;
