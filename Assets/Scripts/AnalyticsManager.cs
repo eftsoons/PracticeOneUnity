@@ -100,7 +100,7 @@ public class AnalyticsManager : MonoBehaviour
         game_started.Add(Event);
     }
 
-    void LevelCompleted(string time, string point)
+    public void LevelCompleted(string time, string point)
     {
         AnalyticsEventLevelCompleted saveData = new AnalyticsEventLevelCompleted(time, point);
 
@@ -109,7 +109,7 @@ public class AnalyticsManager : MonoBehaviour
         level_completed.Add(Event);
     }
 
-    void DroneCrashed()
+    public void DroneCrashed()
     {
         AnalyticsEvent Event = new AnalyticsEvent("drone_crashed");
 

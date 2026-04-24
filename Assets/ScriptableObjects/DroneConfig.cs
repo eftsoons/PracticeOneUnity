@@ -6,9 +6,9 @@ using UnityEngine;
 
 public class DroneConfig : ScriptableObject
 {
-    public int maxSpeed = 0;
-    public int acceleration = 0;
-    public int rotationSpeed = 0;
-    public int batteryLife = 0;
-    public int obstaclePenalty = 0;
+    public float maxSpeed = 15f;
+    public float acceleration = 2.5f;
+    public float rotationSpeed = 100f;
+    public float batteryLife = 100;
+    public int obstaclePenalty = 100;
 }

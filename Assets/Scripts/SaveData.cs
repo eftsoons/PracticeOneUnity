@@ -8,7 +8,7 @@ public class SaveData : MonoBehaviour
 {
     public string version = "1.0";
     public string bestTime = "0";
-    public string totalScore = "0";
+    public int totalScore = 0;
     public string unlockedLevels = "0";
     private string folderPath = Path.Combine(Application.dataPath, "Saves");
 

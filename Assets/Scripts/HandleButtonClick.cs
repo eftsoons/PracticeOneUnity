@@ -30,4 +30,9 @@ public class HandleButtonClick : MonoBehaviour
     {
         SceneManager.LoadScene("Localization");
     }
+
+    public void handleOpenGame()
+    {
+        SceneManager.LoadScene("Game");
+    }
 }

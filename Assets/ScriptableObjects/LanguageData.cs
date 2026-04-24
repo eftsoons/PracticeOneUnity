@@ -27,6 +27,10 @@ public class LanguageData : ScriptableObject
                 {"rotationSpeed", "Скорость поворота"},
                 {"batteryLife", "Время работы батареи"},
                 {"obstaclePenalty", "Штраф за препятствие"},
+                {"play", "Играть"},
+                {"score:", "Очки:"},
+                {"speed:", "Скорость:"},
+                {"batterylife:", "Время работы батареи:"}
             }
         },
         {
@@ -42,7 +46,10 @@ public class LanguageData : ScriptableObject
                 {"rotationSpeed", "Rotation speed"},
                 {"batteryLife", "Battery life"},
                 {"obstaclePenalty", "Obstacle penalty"},
-
+                {"play", "Play"},
+                {"score:", "Score:"},
+                {"speed:", "Speed:"},
+                {"batterylife:", "Battery life:"}
             }
         }
     };
